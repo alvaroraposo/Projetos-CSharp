@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns="http://schemas.microsoft.com/vsto/samples"
+    targetNamespace="http://schemas.microsoft.com/vsto/samples"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified">
+  <xs:element name="checklists" type="ChecklistsType"></xs:element>
+  <xs:complexType name="ChecklistsType">
+    <xs:all>
+      <xs:element name="checklist" type="ChecklistType"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="CriteriosType">
+    <xs:sequence>
+      <xs:element name="criterio" type="CriterioType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CriterioType">
+    <xs:sequence>
+      <xs:element name="artigo" type="xs:string"/>
+      <xs:element name="descricao" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PontoAuditoriaType">
+    <xs:all>
+      <xs:element name="isSelected" type="xs:boolean"/>
+      <xs:element name="tipo" type="xs:string"/>
+      <xs:element name="orientacao" type="xs:string"/>
+      <xs:element name="situacaoEncontrada" type="xs:string"/>
+      <xs:element name="descricaoAchado" type="xs:string"/>      
+      <xs:element name="criterios" type="CriteriosType"/>
+      <xs:element name="obrigatoriedade" type="xs:string"/>
+      <xs:element name="causa" type="xs:string"/>
+      <xs:element name="efeito" type="xs:string"/>
+      <xs:element name="qa" type="xs:string"/>
+	  <xs:element name="peso" type="xs:string"/>
+    </xs:all>
+  </xs:complexType>  
+  <xs:complexType name="ChecklistType">
+    <xs:sequence>
+      <xs:element name="orgao" type="xs:string"/>
+      <xs:element name="nomeResponsavel" type="xs:string"/>
+      <xs:element name="cargoResponsavel" type="xs:string"/>
+      <xs:element name="dataAvaliacao" type="xs:string"/>

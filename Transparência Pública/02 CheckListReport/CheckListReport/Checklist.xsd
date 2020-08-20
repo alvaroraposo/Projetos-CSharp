@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns="http://schemas.microsoft.com/vsto/samples"
+    targetNamespace="http://schemas.microsoft.com/vsto/samples"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified">
+  <xs:element name="checklists" type="ChecklistsType"></xs:element>
+  <xs:complexType name="ChecklistsType">
+    <xs:all>
+      <xs:element name="checklist" type="ChecklistType"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="CriteriosType">
+    <xs:sequence>
+      <xs:element name="criterio" type="CriterioType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CriterioType">
+    <xs:sequence>
+      <xs:element name="artigo" type="xs:string"/>
+      <xs:element name="descricao" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PontoAuditoriaType">
+    <xs:all>
+      <xs:element name="isSelected" type="xs:boolean"/>
+      <xs:element name="tipo" type="xs:string"/>
+      <xs:element name="orientacao" type="xs:string"/>
+      <xs:element name="situacaoEncontrada" type="xs:string"/>
+      <xs:element name="descricaoAchado" type="xs:string"/>      
+      <xs:element name="criterios" type="CriteriosType"/>
+      <xs:element name="obrigatoriedade" type="xs:string"/>
+      <xs:element name="causa" type="xs:string"/>
+      <xs:element name="efeito" type="xs:string"/>
+      <xs:element name="qa" type="xs:string"/>
+    </xs:all>
+  </xs:complexType>  
+  <xs:complexType name="ChecklistType">
+    <xs:sequence>
+      <xs:element name="orgao" type="xs:string"/>
+      <xs:element name="nomeResponsavel" type="xs:string"/>
+      <xs:element name="cargoResponsavel" type="xs:string"/>
+      <xs:element name="dataAvaliacao" type="xs:string"/>
+	<xs:element name='pa01' type='PontoAuditoriaType'/>
+	<xs:element name='pa02' type='PontoAuditoriaType'/>
+	<xs:element name='pa03' type='PontoAuditoriaType'/>
+	<xs:element name='pa04' type='PontoAuditoriaType'/>
+	<xs:element name='pa05' type='PontoAuditoriaType'/>
+	<xs:element name='pa06' type='PontoAuditoriaType'/>
+	<xs:element name='pa07' type='PontoAuditoriaType'/>
+	<xs:element name='pa08' type='PontoAuditoriaType'/>
+	<xs:element name='pa09' type='PontoAuditoriaType'/>
+	<xs:element name='pa10' type='PontoAuditoriaType'/>
+	<xs:element name='pa11' type='PontoAuditoriaType'/>
+	<xs:element name='pa12' type='PontoAuditoriaType'/>
+	<xs:element name='pa13' type='PontoAuditoriaType'/>
+	<xs:element name='pa14' type='PontoAuditoriaType'/>
+	<xs:element name='pa15' type='PontoAuditoriaType'/>
+	<xs:element name='pa16' type='PontoAuditoriaType'/>
+	<xs:element name='pa17' type='PontoAuditoriaType'/>
+	<xs:element name='pa18' type='PontoAuditoriaType'/>
+	<xs:element name='pa19' type='PontoAuditoriaType'/>
+	<xs:element name='pa20' type='PontoAuditoriaType'/>
+	<xs:element name='pa21' type='PontoAuditoriaType'/>
+	<xs:element name='pa22' type='PontoAuditoriaType'/>
+	<xs:element name='pa23' type='PontoAuditoriaType'/>
+	<xs:element name='pa24' type='PontoAuditoriaType'/>
+	<xs:element name='pa25' type='PontoAuditoriaType'/>
+	<xs:element name='pa26' type='PontoAuditoriaType'/>
+	<xs:element name='pa27' type='PontoAuditoriaType'/>
+	<xs:element name='pa28' type='PontoAuditoriaType'/>
+	<xs:element name='pa29' type='PontoAuditoriaType'/>
+	<xs:element name='pa30' type='PontoAuditoriaType'/>
+	<xs:element name='pa31' type='PontoAuditoriaType'/>
+	<xs:element name='pa32' type='PontoAuditoriaType'/>
+	<xs:element name='pa33' type='PontoAuditoriaType'/>
+	<xs:element name='pa34' type='PontoAuditoriaType'/>
+	<xs:element name='pa35' type='PontoAuditoriaType'/>
+	<xs:element name='pa36' type='PontoAuditoriaType'/>
+	<xs:element name='pa37' type='PontoAuditoriaType'/>
+	<xs:element name='pa38' type='PontoAuditoriaType'/>
+	<xs:element name='pa39' type='PontoAuditoriaType'/>
+	<xs:element name='pa40' type='PontoAuditoriaType'/>
+	<xs:element name='pa41' type='PontoAuditoriaType'/>
+	<xs:element name='pa42' type='PontoAuditoriaType'/>
+	<xs:element name='pa43' type='PontoAuditoriaType'/>
+	<xs:element name='pa44' type='PontoAuditoriaType'/>
+	<xs:element name='pa45' type='PontoAuditoriaType'/>
+	<xs:element name='pa46' type='PontoAuditoriaType'/>
+	<xs:element name='pa47' type='PontoAuditoriaType'/>
+	<xs:element name='pa48' type='PontoAuditoriaType'/>
+	<xs:element name='pa49' type='PontoAuditoriaType'/>
+	<xs:element name='pa50' type='PontoAuditoriaType'/>
+	<xs:element name='pa51' type='PontoAuditoriaType'/>
+	<xs:element name='pa52' type='PontoAuditoriaType'/>
+	<xs:element name='pa53' type='PontoAuditoriaType'/>
+	<xs:element name='pa54' type='PontoAuditoriaType'/>
+	<xs:element name='pa55' type='PontoAuditoriaType'/>
+	<xs:element name='pa56' type='PontoAuditoriaType'/>
+	<xs:element name='pa57' type='PontoAuditoriaType'/>
+	<xs:element name='pa58' type='PontoAuditoriaType'/>
+	<xs:element name='pa59' type='PontoAuditoriaType'/>
+	<xs:element name='pa60' type='PontoAuditoriaType'/>
+	<xs:element name='pa61' type='PontoAuditoriaType'/>
+	<xs:element name='pa62' type='PontoAuditoriaType'/>
+	<xs:element name='pa63' type='PontoAuditoriaType'/>
+	<xs:element name='pa64' type='PontoAuditoriaType'/>
+	<xs:element name='pa65' type='PontoAuditoriaType'/>
+	<xs:element name='pa66' type='PontoAuditoriaType'/>
+	<xs:element name='pa67' type='PontoAuditoriaType'/>
+	<xs:element name='pa68' type='PontoAuditoriaType'/>
+	<xs:element name='pa69' type='PontoAuditoriaType'/>
+	<xs:element name='pa70' type='PontoAuditoriaType'/>
+	<xs:element name='pa71' type='PontoAuditoriaType'/>
+	<xs:element name='pa72' type='PontoAuditoriaType'/>
+	<xs:element name='pa73' type='PontoAuditoriaType'/>
+	<xs:element name='pa74' type='PontoAuditoriaType'/>
+	<xs:element name='pa75' type='PontoAuditoriaType'/>
+	<xs:element name='pa76' type='PontoAuditoriaType'/>
+	<xs:element name='pa77' type='PontoAuditoriaType'/>
+	<xs:element name='pa78' type='PontoAuditoriaType'/>
+	<xs:element name='pa79' type='PontoAuditoriaType'/>
+	<xs:element name='pa80' type='PontoAuditoriaType'/>
+	<xs:element name='pa81' type='PontoAuditoriaType'/>
+	<xs:element name='pa82' type='PontoAuditoriaType'/>
+	<xs:element name='pa83' type='PontoAuditoriaType'/>
+	<xs:element name='pa84' type='PontoAuditoriaType'/>
+	<xs:element name='pa85' type='PontoAuditoriaType'/>
+	<xs:element name='pa86' type='PontoAuditoriaType'/>
+	<xs:element name='pa87' type='PontoAuditoriaType'/>
+	<xs:element name='pa88' type='PontoAuditoriaType'/>
+	<xs:element name='pa89' type='PontoAuditoriaType'/>
+	<xs:element name='pa90' type='PontoAuditoriaType'/>
+	<xs:element name='pa91' type='PontoAuditoriaType'/>
+	<xs:element name='pa92' type='PontoAuditoriaType'/>
+	<xs:element name='pa93' type='PontoAuditoriaType'/>
+	<xs:element name='pa94' type='PontoAuditoriaType'/>
+	<xs:element name='pa95' type='PontoAuditoriaType'/>
+	<xs:element name='pa96' type='PontoAuditoriaType'/>
+	<xs:element name='pa97' type='PontoAuditoriaType'/>
+	<xs:element name='pa98' type='PontoAuditoriaType'/>
+	<xs:element name='pa99' type='PontoAuditoriaType'/>
+	</xs:sequence>    
+  </xs:complexType>
+</xs:schema>

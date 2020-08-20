@@ -1,0 +1,37 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+
+<checklists xmlns='http://schemas.microsoft.com/vsto/samples'>
+  <checklist>
+    <orgao></orgao>
+    <nomeResponsavel></nomeResponsavel>
+    <cargoResponsavel></cargoResponsavel>
+    <dataAvaliacao></dataAvaliacao>
+    <pa01>
+      <isSelected>true</isSelected>      
+      <orientacao>O domínio site principal do órgão segue o padrão “municipio.am.gov.br”</orientacao>
+      <situacaoEncontrada>O domínio do site principal do órgão não segue o padrão “município.am.gov.br”</situacaoEncontrada>
+      <descricaoAchado>Ausência de padronização no domínio do site principal do órgão.</descricaoAchado>
+      <criterios>
+        <criterio>
+          <artigo>Art. 6º, I da Lei 12.527/2011</artigo>
+          <descricao>
+            Art. 6º. Cabe aos órgãos e entidades do poder público, observadas as normas e procedimentos específicos aplicáveis, assegurar a:
+            I - gestão transparente da informação, propiciando amplo acesso a ela e sua divulgação;
+          </descricao>
+        </criterio>
+        <criterio>
+          <artigo>Art. 6º, I da Lei 12.527/2011</artigo>
+          <descricao>
+            Art. 6º. Cabe aos órgãos e entidades do poder público, observadas as normas e procedimentos específicos aplicáveis, assegurar a:
+            I - gestão transparente da informação, propiciando amplo acesso a ela e sua divulgação;
+          </descricao>
+        </criterio>        
+      </criterios>
+      <tipo>Orientacao</tipo>
+      <obrigatoriedade>nao</obrigatoriedade>
+      <causa>Inobservância dos requisitos legais e falha nos processos de controle interno.</causa>
+      <efeito>Obstaculiza o acesso à informação na medida em que o cidadão não encontra os dados de transparência pública de forma intuitiva a partir do portal principal da prefeitura.</efeito>
+      <qa>1</qa>
+    </pa01>
+  </checklist>
+</checklists>
