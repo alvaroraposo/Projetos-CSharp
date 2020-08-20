@@ -1,0 +1,15 @@
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\bin\Debug\RelatorioTransparencia.dll
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\bin\Debug\RelatorioTransparencia.pdb
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\bin\Debug\RelatorioTransparencia.dll.manifest
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\bin\Debug\RelatorioTransparencia.vsto
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\bin\Debug\Relatorio_Transparência_Modelo.docx
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\bin\Debug\Microsoft.Office.Tools.Word.v4.0.Utilities.dll
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\obj\Debug\RelatorioTransparencia.csprojAssemblyReference.cache
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\obj\Debug\RelatorioTransparencia.Properties.Resources.resources
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\obj\Debug\RelatorioTransparencia.csproj.GenerateResource.cache
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\obj\Debug\RelatorioTransparencia.csproj.CoreCompileInputs.cache
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\obj\Debug\RelatorioTransparencia.csproj.CopyComplete
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\obj\Debug\RelatorioTransparencia.dll
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\obj\Debug\RelatorioTransparencia.pdb
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\bin\Debug\Checklist.xml

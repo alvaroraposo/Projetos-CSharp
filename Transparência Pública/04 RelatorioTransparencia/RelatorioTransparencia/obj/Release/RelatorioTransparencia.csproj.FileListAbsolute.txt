@@ -1,0 +1,15 @@
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\bin\Release\Checklist.xml
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\bin\Release\RelatorioTransparencia.dll
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\bin\Release\RelatorioTransparencia.pdb
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\bin\Release\RelatorioTransparencia.dll.manifest
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\bin\Release\RelatorioTransparencia.vsto
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\bin\Release\Relatorio_Transparência_Modelo.docx
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\bin\Release\Microsoft.Office.Tools.Word.v4.0.Utilities.dll
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\obj\Release\RelatorioTransparencia.csprojAssemblyReference.cache
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\obj\Release\RelatorioTransparencia.Properties.Resources.resources
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\obj\Release\RelatorioTransparencia.csproj.GenerateResource.cache
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\obj\Release\RelatorioTransparencia.csproj.CoreCompileInputs.cache
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\obj\Release\RelatorioTransparencia.csproj.CopyComplete
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\obj\Release\RelatorioTransparencia.dll
+D:\Users\alvaro.raposo.TCE\source\repos\RelatorioTransparencia\RelatorioTransparencia\obj\Release\RelatorioTransparencia.pdb
